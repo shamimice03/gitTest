@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func Add(a int, b int) int {
 	return a + b
 }
@@ -23,4 +25,12 @@ func Div(a int, b int) int {
 	}
 
 	return res
+}
+
+func EvenOdd(N int) {
+	if N%2 == 0 {
+		fmt.Println("EVEN")
+	} else {
+		fmt.Println("ODD")
+	}
 }

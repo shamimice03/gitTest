@@ -12,4 +12,9 @@ func main() {
 
 	var check int = Mul(10, 2)
 	fmt.Println(check)
+
+	var check2 int = Div(10, 2)
+	fmt.Println(check2)
+
+	EvenOdd(7)
 }
