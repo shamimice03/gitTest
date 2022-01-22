@@ -1,0 +1,9 @@
+github pushing
+git init
+git remote add origin https://github.com/shamimice03/gitTest.git
+git remote -v  
+git add . 
+git status 
+git commit
+git push -u -f 
+git push -u -f origin master 
