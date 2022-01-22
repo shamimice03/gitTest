@@ -2,8 +2,7 @@ package greet
 
 func Hello(name string) string {
 
-	var result string
-	result = "Hello from" + name
+	result := string("Hello from " + name)
 
 	return result
 
